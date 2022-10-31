@@ -1,0 +1,25 @@
+#include <iostream>
+ using namespace std;
+ int main()
+ {
+ int a,b,c;
+ cin>>a>>b>>c;
+ int dtb = (a+b+c)/3;
+    if(dtb>=9.0)
+	 {
+ 		cout<<"hoc sinh dat hang a"<<endl;
+	 }
+	 else if(dtb>=7.0 && dtb<9.0)
+	 {
+	 	cout<<"hoc sinh dat hang b"<<endl;
+	 }
+	 else if (dtb>=5.0 && dtb<7.0)
+	 {
+	 	cout<<"hoc sinh dat hang c"<<endl;
+	 }
+	 else if (dtb<5.0)
+	 {
+	 	cout<<"hoc sinh dat hang f"<<endl;
+	 }
+	 return 0;	
+ }
