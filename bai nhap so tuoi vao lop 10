@@ -1,0 +1,16 @@
+#include  <iostream>
+ using namespace std;
+ #define tuoi 34 
+ int main()
+{
+   cout<<"nhap so tuoi la :";
+   int a;
+   cin>>a;
+   if(a==tuoi){
+   	cout<<"du dieu kien vao lop 10"<< endl;
+   }
+   else{
+   	 cout<<"khong du dieu kien vao lop 10"<<endl;
+   }
+   return 0;
+}
