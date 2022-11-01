@@ -1,0 +1,33 @@
+#include <iostream>
+ using namespace std;
+ int main()  {
+ 	char nam =' ';
+    cout<<"dau la thu do cua nuoc viet nam"<<endl;
+    cout<<" A. ha noi "<<endl;
+    cout<<"B. nghe an"<<endl;
+    cout<<"C. da nang"<<endl;
+    cout<<"D. nam dinh"<<endl;
+ 	cin>>nam;
+ 	switch (nam) {
+ 		case 'A':
+ 		case 'a':
+ 		cout<<"Dan an chinh xac xin chuc mung ban "<<endl;
+ 		break;
+ 		case 'B':
+ 		case 'b':
+ 		cout<<"Gan dung roi xin chon lai "<<endl;
+ 		break;
+ 		case 'C':
+ 		case 'c':
+ 		cout<<"sai mat roi xin chon lai "<<endl;
+ 		break;
+ 		case 'D':
+ 		case 'd':
+ 		cout<<"chuc ban may man lan sau hay chon lai dap an "<<endl;
+ 		break;
+ 		default:
+ 		cout<<"ban chon dap an khong hop le xin moi ban chon lai"<<endl;
+    break;
+	 }
+	 return 0;
+ }
