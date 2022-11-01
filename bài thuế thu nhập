@@ -3,15 +3,15 @@
  int main()  {
  	cout<<"nhap so luong thang cua ban : ";
  	int a;
- 	cin>>a;
+ 	cin>>a; 
  	if(a>15) {
- 		cout<<"luong cung ban nhan duoc : "<<(a*0.3)<<endl;
+ 		cout<<"luong cung ban nhan duoc : "<<a-(a*0.3)<<endl;  
 	 }
 	 else if(a>=7 && a<15) {
-	 	cout<<"luong cung ban nhan duoc :"<<(a*0.2)<<endl;
+	 	cout<<"luong cung ban nhan duoc :"<<a-(a*0.2)<<endl;
 	 }
 	 else if(a<7){
-	 	cout<<"luong cung ban nhan duoc :"<<(a*0.1)<<endl;
+	 	cout<<"luong cung ban nhan duoc :"<<a-(a*0.1)<<endl;
 	 }
 	 return 0;
  }
