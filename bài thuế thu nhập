@@ -1,0 +1,17 @@
+#include <iostream>
+ using namespace std;
+ int main()  {
+ 	cout<<"nhap so luong thang cua ban : ";
+ 	int a;
+ 	cin>>a;
+ 	if(a>15) {
+ 		cout<<"luong cung ban nhan duoc : "<<(a*0.3)<<endl;
+	 }
+	 else if(a>=7 && a<15) {
+	 	cout<<"luong cung ban nhan duoc :"<<(a*0.2)<<endl;
+	 }
+	 else if(a<7){
+	 	cout<<"luong cung ban nhan duoc :"<<(a*0.1)<<endl;
+	 }
+	 return 0;
+ }
