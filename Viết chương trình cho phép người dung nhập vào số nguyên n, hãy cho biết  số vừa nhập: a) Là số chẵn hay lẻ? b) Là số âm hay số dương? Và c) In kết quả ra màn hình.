@@ -1,0 +1,26 @@
+#include <iostream>
+ using namespace std;
+ int main()  {
+ 	cout<<"nhap so nguyen : ";
+ 	int a;
+ 	cin>>a;
+ 	if(a>0 && a%2==0) 
+	 {
+ 		cout<<a << "la so duong" <<endl;
+ 		cout<<a << "la so chan" <<endl;
+	 }
+	 else if(a<0 && a%2!=0)  
+	 {
+	 	cout<<a << "la so am"<<endl;
+	 	cout<<a << "la so le"<<endl;
+	 }
+	 else if(a>0 && a%2!=2) {
+	 	cout<<a << "la so le "<<endl;
+	 	cout<<a << "la so duong"<<endl;
+	 }
+	 else {
+	 	cout<<a << "la so am"<<endl;
+	 	cout<<a << "la so chan"<<endl;
+	 }
+	 return 0;
+ }
