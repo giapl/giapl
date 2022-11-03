@@ -1,0 +1,11 @@
+#include <iostream>
+ using namespace std;
+  #define pi 3.14
+ int main() {
+ 	int r;
+ 	cout<<"nhap ban kinh r :";
+ 	cin>>r;
+ 	cout<<"chu vi :"<<2*r*pi<<endl;
+ 	cout<<"dien tich :"<<r*r*pi<<endl;
+ 	return 0;
+ }
