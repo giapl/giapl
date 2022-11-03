@@ -1,0 +1,26 @@
+#include <iostream>
+ using namespace std;
+ int main() {
+ 	int a,b,c,d,e ;
+ 	cout<<"nhap 5 so thuc a,b,c,d,e : ";
+ 	cin>>a>>b>>c>>d>>e; 
+ 	if(a>b && a>c && a>d && a>e){
+ 		cout<<"so lon nhat co gia tri"<<a<<endl;
+	 }
+	 else if (b>a && b>c && b>d && b>e){
+	 	cout<<"so lon nhat co gia tri"<<b<<endl;
+	 }
+	 else if (c>a && c>b && c>d && c>e){
+	 	cout<<"so lon nhat co gia tri"<<c<<endl;
+	 }
+	 else if (d>a && d>b && d>c && d>e){
+	 	cout<<"so lon nhat co gia tri"<<d<<endl;
+	 }
+	 else if (e>a && e>b && e>c && e>d){
+	 	cout<<"so lon nhat co gia tri"<<e<<endl;
+	 }
+	else if (a=b=c=d=e){
+	 	cout<<"khong co gia tri";
+	 }
+ 	return 0;
+ }
