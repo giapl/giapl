@@ -1,0 +1,10 @@
+#include <iostream>
+ using namespace std;
+ int main() {
+ 	int a,b;
+ 	cout<<"nhap chieu dai , chieu rong :  ";
+ 	cin>>a>>b;
+ 	cout<<"chu vi = "<<2*(a+b)<<endl;
+ 	cout<<"dien tich = "<<(a*b)<<endl;
+ 	return 0;
+ }
