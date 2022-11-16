@@ -1,0 +1,33 @@
+#include<iostream>
+ using namespace std;
+ int main()
+{
+ 	int n; 
+ 	do{
+ 	   cout<<"=========MENU==========" <<endl; 
+ 	   cout<<"1: ga ran len mam" <<endl;
+	   cout<<"2: vit xiem bay mon" <<endl;
+       cout<<"3: heo ham xa" <<endl;
+	   cout<<"4: ngan gia cay" <<endl; 
+	   cin>>n;
+ 	     switch(n)
+	     {
+ 	     case 1:
+	     cout <<"ga ran len mam" <<endl;
+	     break;
+	     case 2:
+	  	 cout<<"vit xiem bay mon"<<endl;
+	  	 break;
+	     case 3:
+		 cout<<"heo ham xa"<<endl;
+		 break;
+		 case 4:
+		 cout<<" ngan gia cay"<<endl;
+		 break;
+	     default:
+		 cout<<"vui long nhap so lai ban da sai ";
+	     break;
+	     }
+	 }while(n!=0) ;
+	 return  0; 
+}
