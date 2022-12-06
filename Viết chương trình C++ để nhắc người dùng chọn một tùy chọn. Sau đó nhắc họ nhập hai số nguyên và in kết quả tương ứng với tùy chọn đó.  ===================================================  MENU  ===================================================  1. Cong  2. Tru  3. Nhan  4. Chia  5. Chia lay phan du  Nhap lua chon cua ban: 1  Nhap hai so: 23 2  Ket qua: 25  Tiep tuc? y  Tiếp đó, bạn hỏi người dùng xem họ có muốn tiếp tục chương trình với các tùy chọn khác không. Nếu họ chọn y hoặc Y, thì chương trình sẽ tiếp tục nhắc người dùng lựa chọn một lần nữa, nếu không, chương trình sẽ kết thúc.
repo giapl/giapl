@@ -1,0 +1,51 @@
+#include <iostream>
+ using namespace std;
+ int cong(int x, int y){
+ 	return x+y;
+ }
+ int tru(int x,int y){
+ 	return x-y;
+ }
+ float chia(int x, int y){
+ 	return x/y;
+ }
+ int nhan(int x, int y){
+ 	return x*y;
+ }
+ int main ()
+ {
+ 	int luachon;
+ 	do {
+ 		cout<<"===================================="<<endl;
+ 		cout<<"=============menu==================="<<endl;
+ 	            	cout<<"1: tinh tong 2 so"<<endl;
+ 	            	cout<<"2: tinh hieu 2 so"<<endl;
+ 		            cout<<"3: tinh tich 2 so"<<endl;
+ 		            cout<<"4: tinh thuong 2 so"<<endl;
+ 		            cout<<"xin moi ban nhap lua chon cho minh (1-4) : ";
+ 		            cin>>luachon;
+ 		            int a,b;
+ 		            cout<<"nhap hai so a va b : ";
+ 		            cin>>a>>b;
+ 	switch (luachon)
+	   {
+ 		case 1 :
+ 			cout<<"1: tinh tong 2 so la :"<<a<<"+"<<b<<"="<<cong(a,b)<<endl;
+ 		    break;
+ 		case 2:
+ 			cout<<"2: tinh hieu 2 so la :"<<a<<"-"<<b<<"="<<tru(a,b)<<endl;
+ 			break;
+ 		case 3:
+ 			cout<<"3: tinh tich 2 so la :"<<a<<"*"<<b<<"="<<nhan(a,b)<<endl;
+ 			break;
+ 		case 4 :
+ 			cout<<"4: tinh thuong 2 so la :"<<a<<"/"<<b<<"="<<chia(a,b)<<endl;
+ 			break;
+ 	default :
+ 		    cout<<"ban nhap sai roi moi ban chon lai"<<endl;
+ 		    break;
+		}
+	 }while(luachon!=0);
+	 return 0;
+ 	
+ }
